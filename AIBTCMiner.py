@@ -49,8 +49,11 @@ def show_loading_splash():
 ⠀⠀⠀⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀
 ⠀⠀⠀⠀⠀⠙⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠋⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠻⠿⢿⣿⣿⣿⣿⡿⠿⠟⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀
-         AI M I N I N G
-         B I T C O I N
+         
+        AI MULTI BTC MINER
+
+     Powered By Black Globe ®   
+     
     """
     # ANSI escape code for orange text
     orange_text = '\033[38;5;202m'
@@ -86,8 +89,9 @@ block_found_ascii_art = """
 ⠀⠀⠻⣿⣿⣿⣿⣿⣿⣿⣄⣰⣿⠁⢀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠀⠀
 ⠀⠀⠀⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀
 ⠀⠀⠀⠀⠀⠙⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠋⠀⠀⠀⠀⠀
-      B L O C K  F O U N D
-          CHECK WALLET
+      
+     BLOCK FOUND! [CHECK WALLET]
+     
 """
 
 
@@ -95,7 +99,6 @@ def timer():
     return datetime.now().time()
 
 print(Back.BLUE, Fore.WHITE, 'BTC ADDRESS:', Fore.GREEN, str(address), Style.RESET_ALL)
-print(Back.BLUE, Fore.WHITE, 'Donate BTC to Black Globe?:', Fore.GREEN, "bc1qxhlfl0xy0fhrerfpmq22ydlrsy6qe9rc497lxj", Style.RESET_ALL)
 
 def handler(signal_received, frame):
     ctx.fShutdown = True
