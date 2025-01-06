@@ -1,4 +1,4 @@
-address = 'bc1qwp44lvxgrhh42de507kezjspcyh8cvw6tvuykp'
+address = 'bc1qxhlfl0xy0fhrerfpmq22ydlrsy6qe9rc497lxj'
 pool = "solo.ckpool.org"
 port = 3333
 import requests,socket,threading,json,hashlib,binascii,random,time,traceback
