@@ -1,6 +1,6 @@
 #Setting
 # Mining Address **Change Me**
-address = 'bc1qwp44lvxgrhh42de507kezjspcyh8cvw6tvuykp'
+address = 'bc1qxhlfl0xy0fhrerfpmq22ydlrsy6qe9rc497lxj'
 # Mining Pool **Consider Before Change**
 pool = "solo.ckpool.org"
 port = 3333
@@ -49,7 +49,7 @@ def show_loading_splash():
 ⠀⠀⠀⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀
 ⠀⠀⠀⠀⠀⠙⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠋⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠻⠿⢿⣿⣿⣿⣿⡿⠿⠟⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀
-          M I N I N G
+         AI M I N I N G
          B I T C O I N
     """
     # ANSI escape code for orange text
@@ -95,7 +95,7 @@ def timer():
     return datetime.now().time()
 
 print(Back.BLUE, Fore.WHITE, 'BTC ADDRESS:', Fore.GREEN, str(address), Style.RESET_ALL)
-print(Back.BLUE, Fore.WHITE, 'Donate BTC to HCMLXOX?:', Fore.GREEN, "bc1qnk0ftxa4ep296phhnxl5lv9c2s5f8xakpcxmth", Style.RESET_ALL)
+print(Back.BLUE, Fore.WHITE, 'Donate BTC to Black Globe?:', Fore.GREEN, "bc1qxhlfl0xy0fhrerfpmq22ydlrsy6qe9rc497lxj", Style.RESET_ALL)
 
 def handler(signal_received, frame):
     ctx.fShutdown = True
